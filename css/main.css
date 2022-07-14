@@ -1,0 +1,199 @@
+
+main {
+    width: 700px;
+    height: 1020px;
+    margin-top: 10px;
+    margin-left: calc((100% - 700px) / 2);
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#header {
+   display: flex;
+   height: 250px;
+   width: 100%;
+}
+    #headerMain {
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 500px;
+    line-height: 205%;
+
+    }
+
+    #heady {
+    padding-top: 30px;
+    }
+
+.vertical {
+    width: 30px;
+    height: 450px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.vertical p {
+    padding-left: 15px;
+    width: 10px;
+    height: 17px;
+    color: grey;
+}
+
+.mainBodyAll {
+    width: 470px;
+    height: 550px;
+    display: inline-block;  
+}
+
+    .mainBodyMiddle {
+    width: 470px;
+    height: 100px;
+    }
+        #names > * {
+        display: inline-block;
+        padding-top: 10px;
+        }
+
+        #bigName {
+            padding-left: 20px;
+        }
+
+        #firstName {
+            margin-left: 20px;
+            color: rgb(104, 103, 103);
+        }
+
+        #lastName {
+            margin-left: 175px;
+            color: rgb(104, 103, 103);
+        }
+
+        input {
+            background-color: rgba(160, 160, 204, 0.0);  
+            outline: 0;
+            border-width: 0 0 1px;
+            color: rgb(104, 103, 103);
+            height: 30px;
+        }
+
+        #first {
+            margin-left: 20px;
+            width: 210px;
+        }
+        
+        #second {
+            width: 210px;
+            float: right;
+        }
+        
+.mainBodyBot {
+    width: 470px;
+    height: 300px;
+    display: inline-block;
+}
+
+    #email {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    }
+
+    #underEmail {
+    padding-left: 20px;
+    }
+
+    #third {
+    padding-top: 10px;
+    width: 450px;
+    margin-left: 20px;
+    }
+
+    #ticketRadio {
+        padding-top: 10px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-left: 15px;
+    }
+     
+    .tick1, .tick2 {
+        display: inline-block;
+        padding-top: 10px;
+        padding-left: 20px;
+        line-height: 175%;
+    }
+        
+    .tick1 {
+        margin-left: 4%;
+        float: left; 
+        list-style-type: circle;   
+    }
+    
+    .tick2 {
+        float: right;
+        text-align: right;
+        font-weight: bold;
+    }
+    
+    hr {
+        margin-top: 20px;
+        width: 450px;
+        margin-left: 20px;
+    }
+    #total, #price {
+        padding-top: 2px;
+    }
+
+
+.mainBodyRadio {
+    width: 500px;
+    height: 150px;
+    display: inline-block;   
+}
+
+    #event {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .greyText {
+        color: grey; 
+    }
+
+    #col {
+        margin-top: 20px;
+        width: 150px;
+        height: 30px;
+        display: inline-block;
+        margin: 5px;
+    }
+
+.mainBodyFoot {
+    width: 500px;
+    height: 200px;
+    margin-left: 120px;
+    display: inline-block;
+    padding-top: 40px;
+}
+       
+    button {
+    margin-top: 25px;
+    margin-left: 160px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 48px;
+    letter-spacing: .25px;
+    padding: 2px 24px;
+    align-items: center;
+    background-color: rgb(204, 50, 50);
+    color: white;
+    border: none;
+    width: 140px;
+    height: 50px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 1px #898a8a inset,0 0 0 2px rgba(255, 255, 255, 0.15) inset,0 4px 0 0      rgb(136, 24, 24),0 4px 0 1px rgba(0, 0, 0, 0.4),0 4px 4px 1px rgba(0, 0, 0, 0.5);
+    
+}
